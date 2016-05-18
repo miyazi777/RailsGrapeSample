@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  zip_code: 100-1701
+  address: 東京都青ヶ島村
+
+two:
+  zip_code: 100-0301
+  address: 東京都利島村

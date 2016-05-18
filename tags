@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	sample1/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	sample1/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Sample1
+ApplicationController	sample1/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	sample1/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateZips	sample1/db/migrate/20160518055711_create_zips.rb	/^class CreateZips < ActiveRecord::Migration$/;"	c
+Sample1	sample1/config/application.rb	/^module Sample1$/;"	m
+Zip	sample1/app/models/zip.rb	/^class Zip < ActiveRecord::Base$/;"	c
+ZipAPI	sample1/app/api/zip_api.rb	/^class ZipAPI < Grape::API$/;"	c
+ZipTest	sample1/test/models/zip_test.rb	/^class ZipTest < ActiveSupport::TestCase$/;"	c
+add_zip	sample1/app/api/zip_api.rb	/^    def add_zip$/;"	f
+change	sample1/db/migrate/20160518055711_create_zips.rb	/^  def change$/;"	f	class:CreateZips
+not_found_error	sample1/app/api/zip_api.rb	/^    def not_found_error$/;"	f
+remove_zip	sample1/app/api/zip_api.rb	/^    def remove_zip$/;"	f
+search_address	sample1/app/api/zip_api.rb	/^    def search_address$/;"	f
